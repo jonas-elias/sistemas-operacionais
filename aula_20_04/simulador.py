@@ -6,7 +6,6 @@ import time
 import random
 import operator
 
-
 class Processo:
 
     def __init__(self, id, chegada, cpu):
@@ -22,7 +21,6 @@ class Processo:
 
     def get_id(self):
         return self.id
-
 
 class FilaAptos:
     listaProcessos = []
